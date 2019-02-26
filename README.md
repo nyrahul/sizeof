@@ -8,7 +8,8 @@ Sizeof(TCP\_ONLY) stack without IP6/ICMP6 and packet buffers. This was calculate
 
 Sizeof(TCP+IP6+ICMP6+PacketBuffers):
 
-Contiki-NG: with TCP/IP6/ICMP6 (no 6lo)
+### Contiki-NG: with TCP/IP6/ICMP6 (no 6lo)
+
 |  text	|  data	|   bss	 |  dec	 |  hex|filename |
 |-------|-------|--------|-------|-----|-------------------------------------|
 |   172	|     0	|     0	 |  172	 |   ac|build/cc2538dk/obj/memb.o |
