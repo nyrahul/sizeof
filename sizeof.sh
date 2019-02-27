@@ -20,6 +20,7 @@ main()
 {
     cd $PKGDIR
     ./sz_contiki-ng.sh
+    ./sz_lwip.sh
 }
 
 #Processing starts here

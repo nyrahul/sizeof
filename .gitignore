@@ -1,4 +1,4 @@
 packages/contiki-ng-develop/
 packages/contrib/
 packages/lwip/
-packages/lwip-arm/bin
+packages/lwip_arm/bin/
