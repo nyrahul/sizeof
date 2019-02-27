@@ -2,6 +2,8 @@
 
 ## Contiki-NG
 
+Platform used CC2538DK, cross-compiling on linux.
+
 Sizeof(TCP\_ONLY) stack without IP6/ICMP6 and packet buffers. This was calculated by compiling ```examples/rpl-border-router``` with and without TCP support and getting the difference size.
 
 * Contiki-NG: sizeof(TCP\_ONLY) text=3112, data=0, bss=596
