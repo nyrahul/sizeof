@@ -4,7 +4,7 @@
 
 Sizeof(TCP\_ONLY) stack without IP6/ICMP6 and packet buffers. This was calculated by compiling ```examples/rpl-border-router``` with and without TCP support and getting the difference size.
 
-* Contiki-NG: sizeof(TCP\_ONLY) text=3112, data=0, bss=596 *
+* Contiki-NG: sizeof(TCP\_ONLY) text=3112, data=0, bss=596
 
 Sizeof(TCP+IP6+ICMP6+PacketBuffers):
 
@@ -22,5 +22,5 @@ Sizeof(TCP+IP6+ICMP6+PacketBuffers):
 |   456	|     0	|    24	 |  480	 |  1e0|build/cc2538dk/obj/uipbuf.o |
 |   820	|    24	|    24	 |  868	 |  364|build/cc2538dk/obj/uip-icmp6.o |
 |   146	|    12	|  2650	 | 2808	 |  af8|build/cc2538dk/obj/uip-packetqueue.o |
-|  9436	|    68	|  3029	 |12533	 | 30f5|(TOTALS) |
+|**9436**	|**68**|**3029**|**12533**|**30f5**|**(TOTALS)**|
 
