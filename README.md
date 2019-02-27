@@ -1,5 +1,7 @@
 # Sizeof Network stacks
 
+This project determines the sizeof network stacks used in constrained environments. The data is collected by using the size utility and the map files generated during linking. To make sure that the comparison data is fair, the network stacks are compiled using the same ARM cross-compiler and using similar CFLAGS/LDFLAGS.
+
 ## Contiki-NG
 
 Platform used CC2538DK, cross-compiling on linux.
