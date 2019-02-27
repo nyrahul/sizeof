@@ -1,0 +1,1389 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+                              bin/tcp.o (__aeabi_uidiv)
+/usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+                              bin/sockets.o (__aeabi_idiv)
+/usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+netif_list          0x4               bin/netif.o
+memp_memory_ND6_QUEUE_base
+                    0xa0              bin/memp.o
+lock_tcpip_core     0x4               bin/tcpip.o
+ip_data             0x44              bin/ip.o
+memp_memory_NETBUF_base
+                    0x48              bin/memp.o
+tcp_active_pcbs_changed
+                    0x1               bin/tcp.o
+tcp_active_pcbs     0x4               bin/tcp.o
+udp_pcbs            0x4               bin/udp.o
+memp_memory_TCPIP_MSG_INPKT_base
+                    0x80              bin/memp.o
+memp_memory_IP6_REASSDATA_base
+                    0x20              bin/memp.o
+tcp_ticks           0x4               bin/tcp.o
+tcp_listen_pcbs     0x4               bin/tcp.o
+memp_memory_RAW_PCB_base
+                    0x120             bin/memp.o
+memp_memory_TCP_SEG_base
+                    0x100             bin/memp.o
+neighbor_cache      0x1b8             bin/nd6.o
+memp_memory_PBUF_POOL_base
+                    0x1300            bin/memp.o
+memp_memory_FRAG_PBUF_base
+                    0x168             bin/memp.o
+memp_memory_TCPIP_MSG_API_base
+                    0x80              bin/memp.o
+tcp_input_pcb       0x4               bin/tcp_in.o
+prefix_list         0x8c              bin/nd6.o
+destination_cache   0x1e0             bin/nd6.o
+memp_memory_PBUF_base
+                    0x100             bin/memp.o
+tcp_bound_pcbs      0x4               bin/tcp.o
+memp_memory_TCP_PCB_LISTEN_base
+                    0x110             bin/memp.o
+memp_memory_REASSDATA_base
+                    0x20              bin/memp.o
+memp_memory_UDP_PCB_base
+                    0x140             bin/memp.o
+pbuf_free_ooseq_pending
+                    0x1               bin/pbuf.o
+memp_memory_MLD6_GROUP_base
+                    0x80              bin/memp.o
+default_router_list
+                    0x24              bin/nd6.o
+tcp_tw_pcbs         0x4               bin/tcp.o
+memp_memory_NETCONN_base
+                    0x500             bin/memp.o
+dhcp6_rx_options    0xc               bin/dhcp6.o
+netif_default       0x4               bin/netif.o
+memp_memory_TCP_PCB_base
+                    0x310             bin/memp.o
+memp_memory_SYS_TIMEOUT_base
+                    0x80              bin/memp.o
+ram_heap            0x64c             bin/mem.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+LOAD bin/netdb.o
+LOAD bin/api_lib.o
+LOAD bin/netifapi.o
+LOAD bin/tcpip.o
+LOAD bin/netbuf.o
+LOAD bin/if_api.o
+LOAD bin/err.o
+LOAD bin/api_msg.o
+LOAD bin/sockets.o
+LOAD bin/stats.o
+LOAD bin/mem.o
+LOAD bin/inet_chksum.o
+LOAD bin/init.o
+LOAD bin/memp.o
+LOAD bin/tcp.o
+LOAD bin/altcp_alloc.o
+LOAD bin/dns.o
+LOAD bin/timeouts.o
+LOAD bin/ip.o
+LOAD bin/raw.o
+LOAD bin/tcp_in.o
+LOAD bin/def.o
+LOAD bin/netif.o
+LOAD bin/sys.o
+LOAD bin/altcp.o
+LOAD bin/pbuf.o
+LOAD bin/altcp_tcp.o
+LOAD bin/udp.o
+LOAD bin/tcp_out.o
+LOAD bin/ip6_frag.o
+LOAD bin/dhcp6.o
+LOAD bin/inet6.o
+LOAD bin/ip6_addr.o
+LOAD bin/ip6.o
+LOAD bin/nd6.o
+LOAD bin/mld6.o
+LOAD bin/ethip6.o
+LOAD bin/icmp6.o
+LOAD bin/slipif.o
+LOAD bin/ethernet.o
+LOAD bin/bridgeif_fdb.o
+LOAD bin/zepif.o
+LOAD bin/lowpan6.o
+LOAD bin/lowpan6_ble.o
+LOAD bin/lowpan6_common.o
+LOAD bin/bridgeif.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0xbf8
+ *(.hash)
+ .hash          0x00000000000000b4      0xbf8 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000cac     0x1f50
+ *(.dynsym)
+ .dynsym        0x0000000000000cac     0x1f50 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.dynstr         0x0000000000002bfc     0x1f01
+ *(.dynstr)
+ .dynstr        0x0000000000002bfc     0x1f01 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.gnu.version    0x0000000000004afe        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000004afe        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.gnu.version_d  0x0000000000004b00        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000004b00        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.gnu.version_r  0x0000000000004b00        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000004b00        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.rel.dyn        0x0000000000004b00     0x2a40
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000004b00     0x27b8 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .rel.text.unlikely
+                0x00000000000072b8       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ .rel.rodata    0x00000000000072e8      0x248 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000007530        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000007530        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .rel.init_array
+                0x0000000000007530        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .rel.fini_array
+                0x0000000000007538        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.iplt)
+
+.rel.plt        0x0000000000007540      0x838
+ *(.rel.plt)
+ .rel.plt       0x0000000000007540      0x838 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000007d78       0x18
+ *(SORT(.init))
+ .init          0x0000000000007d78        0xc /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+                0x0000000000007d78                _init
+ .init          0x0000000000007d84        0xc /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+
+.plt            0x0000000000007d90      0xc68
+ *(.plt)
+ .plt           0x0000000000007d90      0xc68 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.iplt           0x00000000000089f8        0x0
+ *(.iplt)
+ .iplt          0x00000000000089f8        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+
+.text           0x00000000000089f8    0x1e8c4
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x00000000000089f8       0x30 bin/api_lib.o
+ .text.unlikely
+                0x0000000000008a28       0x30 bin/ip6_frag.o
+ .text.unlikely
+                0x0000000000008a58       0x6c bin/nd6.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008ac4        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .text          0x0000000000008ac4      0x108 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+ .text          0x0000000000008bcc      0x104 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+                0x0000000000008bcc                _mainCRTStartup
+                0x0000000000008bcc                _start
+ .text          0x0000000000008cd0        0x0 bin/netdb.o
+ .text          0x0000000000008cd0      0xfdc bin/api_lib.o
+                0x000000000000901c                netconn_new_with_proto_and_callback
+                0x0000000000009118                netconn_prepare_delete
+                0x0000000000009150                netconn_delete
+                0x000000000000917c                netconn_getaddr
+                0x0000000000009244                netconn_bind
+                0x0000000000009364                netconn_bind_if
+                0x00000000000093c4                netconn_connect
+                0x000000000000943c                netconn_disconnect
+                0x000000000000949c                netconn_listen_with_backlog
+                0x00000000000094fc                netconn_accept
+                0x0000000000009628                netconn_tcp_recvd
+                0x000000000000969c                netconn_recv_tcp_pbuf
+                0x00000000000096f0                netconn_recv_tcp_pbuf_flags
+                0x0000000000009740                netconn_recv_udp_raw_netbuf
+                0x0000000000009794                netconn_recv_udp_raw_netbuf_flags
+                0x00000000000097e4                netconn_recv
+                0x0000000000009914                netconn_send
+                0x0000000000009978                netconn_sendto
+                0x00000000000099e8                netconn_write_vectors_partly
+                0x0000000000009b38                netconn_write_partly
+                0x0000000000009b64                netconn_close
+                0x0000000000009b6c                netconn_err
+                0x0000000000009b84                netconn_shutdown
+                0x0000000000009ba0                netconn_join_leave_group
+                0x0000000000009c24                netconn_join_leave_group_netif
+ .text          0x0000000000009cac        0x0 bin/netifapi.o
+ .text          0x0000000000009cac      0x5a4 bin/tcpip.o
+                0x0000000000009e20                tcpip_inpkt
+                0x0000000000009ec0                tcpip_input
+                0x0000000000009edc                tcpip_callback
+                0x0000000000009f64                tcpip_try_callback
+                0x000000000000a000                tcpip_send_msg_wait_sem
+                0x000000000000a03c                tcpip_api_call
+                0x000000000000a07c                tcpip_callbackmsg_new
+                0x000000000000a0ac                tcpip_callbackmsg_delete
+                0x000000000000a0c4                tcpip_callbackmsg_trycallback
+                0x000000000000a120                tcpip_callbackmsg_trycallback_fromisr
+                0x000000000000a178                tcpip_init
+                0x000000000000a230                pbuf_free_callback
+                0x000000000000a240                mem_free_callback
+ .text          0x000000000000a250      0x3c8 bin/netbuf.o
+                0x000000000000a250                netbuf_new
+                0x000000000000a278                netbuf_delete
+                0x000000000000a2b4                netbuf_alloc
+                0x000000000000a344                netbuf_free
+                0x000000000000a39c                netbuf_ref
+                0x000000000000a424                netbuf_chain
+                0x000000000000a4b0                netbuf_data
+                0x000000000000a56c                netbuf_next
+                0x000000000000a5d0                netbuf_first
+ .text          0x000000000000a618       0x24 bin/if_api.o
+                0x000000000000a618                lwip_if_indextoname
+                0x000000000000a634                lwip_if_nametoindex
+ .text          0x000000000000a63c       0x24 bin/err.o
+                0x000000000000a63c                err_to_errno
+ .text          0x000000000000a660     0x21f8 bin/api_msg.o
+                0x000000000000b58c                lwip_netconn_is_err_msg
+                0x000000000000b60c                lwip_netconn_do_newconn
+                0x000000000000b720                netconn_alloc
+                0x000000000000b804                netconn_free
+                0x000000000000bb30                lwip_netconn_do_delconn
+                0x000000000000bd08                lwip_netconn_do_bind
+                0x000000000000bd7c                lwip_netconn_do_bind_if
+                0x000000000000bdf0                lwip_netconn_do_connect
+                0x000000000000bf4c                lwip_netconn_do_disconnect
+                0x000000000000bf8c                lwip_netconn_do_listen
+                0x000000000000c170                lwip_netconn_do_send
+                0x000000000000c2a0                lwip_netconn_do_recv
+                0x000000000000c30c                lwip_netconn_do_write
+                0x000000000000c45c                lwip_netconn_do_getaddr
+                0x000000000000c62c                lwip_netconn_do_close
+                0x000000000000c768                lwip_netconn_do_join_leave_group
+                0x000000000000c7d8                lwip_netconn_do_join_leave_group_netif
+ .text          0x000000000000c858     0x33ec bin/sockets.o
+                0x000000000000d7b0                lwip_socket_thread_init
+                0x000000000000d7b4                lwip_socket_thread_cleanup
+                0x000000000000d7b8                lwip_socket_dbg_get_socket
+                0x000000000000d7d0                lwip_accept
+                0x000000000000da58                lwip_bind
+                0x000000000000db88                lwip_close
+                0x000000000000dce4                lwip_connect
+                0x000000000000de28                lwip_listen
+                0x000000000000dea8                lwip_recvfrom
+                0x000000000000dfd4                lwip_read
+                0x000000000000dff4                lwip_recv
+                0x000000000000e014                lwip_recvmsg
+                0x000000000000e1dc                lwip_readv
+                0x000000000000e21c                lwip_sendmsg
+                0x000000000000e528                lwip_sendto
+                0x000000000000e720                lwip_send
+                0x000000000000e7ec                lwip_socket
+                0x000000000000e8d0                lwip_write
+                0x000000000000e8d8                lwip_writev
+                0x000000000000e918                lwip_select
+                0x000000000000ecb0                lwip_poll
+                0x000000000000eddc                lwip_shutdown
+                0x000000000000ee98                lwip_getpeername
+                0x000000000000eea0                lwip_getsockname
+                0x000000000000eea8                lwip_getsockopt
+                0x000000000000f328                lwip_setsockopt
+                0x000000000000fa0c                lwip_ioctl
+                0x000000000000fa80                lwip_fcntl
+                0x000000000000fb58                lwip_inet_ntop
+                0x000000000000fbcc                lwip_inet_pton
+ .text          0x000000000000fc44        0x0 bin/stats.o
+ .text          0x000000000000fc44      0x644 bin/mem.o
+                0x000000000000fc44                mem_init
+                0x000000000000fce8                mem_free
+                0x000000000000fec4                mem_trim
+                0x0000000000010070                mem_malloc
+                0x0000000000010248                mem_calloc
+ .text          0x0000000000010288      0x4fc bin/inet_chksum.o
+                0x0000000000010288                lwip_standard_chksum
+                0x00000000000104f0                inet_chksum_pseudo
+                0x0000000000010534                ip6_chksum_pseudo
+                0x0000000000010594                ip_chksum_pseudo
+                0x00000000000105e0                inet_chksum_pseudo_partial
+                0x000000000001062c                ip6_chksum_pseudo_partial
+                0x0000000000010694                ip_chksum_pseudo_partial
+                0x00000000000106e8                inet_chksum
+                0x0000000000010704                inet_chksum_pbuf
+ .text          0x0000000000010784       0x28 bin/init.o
+                0x0000000000010784                lwip_init
+ .text          0x00000000000107ac      0x1e4 bin/memp.o
+                0x00000000000107ac                memp_init_pool
+                0x00000000000107f8                memp_init
+                0x0000000000010824                memp_malloc_pool
+                0x0000000000010878                memp_malloc
+                0x00000000000108d8                memp_free_pool
+                0x0000000000010930                memp_free
+ .text          0x0000000000010990     0x298c bin/tcp.o
+                0x0000000000010ac8                tcp_init
+                0x0000000000010aec                tcp_free
+                0x0000000000010b3c                tcp_bind
+                0x0000000000010eb4                tcp_bind_netif
+                0x0000000000010ee0                tcp_listen_with_backlog_and_err
+                0x000000000001115c                tcp_listen_with_backlog
+                0x0000000000011180                tcp_update_rcv_ann_wnd
+                0x0000000000011230                tcp_recved
+                0x00000000000112e4                tcp_txnow
+                0x000000000001131c                tcp_seg_free
+                0x0000000000011348                tcp_segs_free
+                0x0000000000011374                tcp_setprio
+                0x00000000000113c4                tcp_seg_copy
+                0x0000000000011430                tcp_arg
+                0x0000000000011450                tcp_recv
+                0x00000000000114b0                tcp_sent
+                0x0000000000011510                tcp_err
+                0x0000000000011570                tcp_accept
+                0x000000000001159c                tcp_poll
+                0x0000000000011618                tcp_next_iss
+                0x000000000001167c                tcp_eff_send_mss_netif
+                0x0000000000011734                tcp_connect
+                0x0000000000011c34                tcp_debug_state_str
+                0x0000000000011c48                tcp_tcp_get_tcp_addrinfo
+                0x0000000000011cc8                tcp_free_ooseq
+                0x0000000000011cf4                tcp_pcb_purge
+                0x0000000000011d98                tcp_pcb_remove
+                0x0000000000011ef8                tcp_abandon
+                0x00000000000120a4                tcp_abort
+                0x00000000000121ec                tcp_netif_ip_addr_changed
+                0x0000000000012498                tcp_alloc
+                0x0000000000012694                tcp_new
+                0x000000000001269c                tcp_new_ip_type
+                0x000000000001292c                tcp_close
+                0x0000000000012990                tcp_recv_null
+                0x0000000000012a10                tcp_process_refused_data
+                0x0000000000012b08                tcp_fasttmr
+                0x0000000000012bd4                tcp_shutdown
+                0x0000000000012ca8                tcp_slowtmr
+                0x00000000000132ec                tcp_tmr
+ .text          0x000000000001331c        0x0 bin/altcp_alloc.o
+ .text          0x000000000001331c        0x0 bin/dns.o
+ .text          0x000000000001331c      0x3ec bin/timeouts.o
+                0x0000000000013430                sys_timeout
+                0x0000000000013494                tcp_timer_needed
+                0x000000000001355c                sys_timeouts_init
+                0x0000000000013598                sys_untimeout
+                0x0000000000013610                sys_check_timeouts
+                0x0000000000013684                sys_restart_timeouts
+                0x00000000000136cc                sys_timeouts_sleeptime
+ .text          0x0000000000013708       0xfc bin/ip.o
+                0x0000000000013708                ipaddr_ntoa
+                0x000000000001373c                ipaddr_ntoa_r
+                0x0000000000013770                ipaddr_aton
+                0x00000000000137c8                ip_input
+ .text          0x0000000000013804      0xcd0 bin/raw.o
+                0x0000000000013804                raw_input
+                0x0000000000013a84                raw_bind
+                0x0000000000013bb4                raw_bind_netif
+                0x0000000000013be0                raw_connect
+                0x0000000000013d18                raw_disconnect
+                0x0000000000013dd8                raw_recv
+                0x0000000000013dfc                raw_sendto_if_src
+                0x00000000000140a0                raw_sendto
+                0x0000000000014208                raw_send
+                0x0000000000014210                raw_remove
+                0x0000000000014270                raw_new
+                0x00000000000142c8                raw_new_ip_type
+                0x00000000000142f4                raw_netif_ip_addr_changed
+ .text          0x00000000000144d4     0x273c bin/tcp_in.o
+                0x00000000000156ec                tcp_input
+                0x0000000000016bf8                tcp_trigger_input_pcb_close
+ .text          0x0000000000016c10      0x244 bin/def.o
+                0x0000000000016c10                lwip_htons
+                0x0000000000016c24                lwip_htonl
+                0x0000000000016c48                lwip_strnstr
+                0x0000000000016cc0                lwip_stricmp
+                0x0000000000016d30                lwip_strnicmp
+                0x0000000000016d90                lwip_itoa
+ .text          0x0000000000016e54     0x11c8 bin/netif.o
+                0x000000000001701c                netif_init
+                0x0000000000017020                netif_input
+                0x00000000000170b4                netif_set_ipaddr
+                0x0000000000017124                netif_set_netmask
+                0x000000000001719c                netif_set_gw
+                0x0000000000017214                netif_set_addr
+                0x00000000000172c8                netif_add
+                0x000000000001753c                netif_add_noaddr
+                0x0000000000017560                netif_set_default
+                0x0000000000017580                netif_set_up
+                0x00000000000175f0                netif_set_down
+                0x0000000000017664                netif_remove
+                0x000000000001773c                netif_set_link_up
+                0x00000000000177ac                netif_set_link_down
+                0x0000000000017808                netif_ip6_addr_set_parts
+                0x000000000001798c                netif_ip6_addr_set
+                0x0000000000017a30                netif_ip6_addr_set_state
+                0x0000000000017b20                netif_get_ip6_addr_match
+                0x0000000000017c34                netif_create_ip6_linklocal_address
+                0x0000000000017d84                netif_add_ip6_address
+                0x0000000000017ef0                netif_get_by_index
+                0x0000000000017f40                netif_index_to_name
+                0x0000000000017f88                netif_find
+                0x0000000000017ffc                netif_name_to_index
+ .text          0x000000000001801c       0x40 bin/sys.o
+                0x000000000001801c                sys_msleep
+ .text          0x000000000001805c        0x0 bin/altcp.o
+ .text          0x000000000001805c     0x11f4 bin/pbuf.o
+                0x00000000000181a0                pbuf_alloc_reference
+                0x0000000000018224                pbuf_alloced_custom
+                0x000000000001827c                pbuf_add_header
+                0x0000000000018284                pbuf_add_header_force
+                0x000000000001828c                pbuf_remove_header
+                0x000000000001833c                pbuf_header
+                0x0000000000018350                pbuf_header_force
+                0x0000000000018364                pbuf_free
+                0x00000000000184b4                pbuf_alloc
+                0x0000000000018680                pbuf_realloc
+                0x00000000000187a8                pbuf_free_header
+                0x0000000000018814                pbuf_clen
+                0x000000000001883c                pbuf_ref
+                0x0000000000018898                pbuf_cat
+                0x0000000000018930                pbuf_chain
+                0x0000000000018948                pbuf_dechain
+                0x0000000000018a00                pbuf_copy
+                0x0000000000018bb8                pbuf_copy_partial
+                0x0000000000018cb0                pbuf_get_contiguous
+                0x0000000000018d94                pbuf_skip
+                0x0000000000018d98                pbuf_take
+                0x0000000000018ea8                pbuf_take_at
+                0x0000000000018f70                pbuf_clone
+                0x0000000000018fd8                pbuf_coalesce
+                0x0000000000019020                pbuf_try_get_at
+                0x000000000001905c                pbuf_get_at
+                0x0000000000019074                pbuf_put_at
+                0x00000000000190ac                pbuf_memcmp
+                0x0000000000019164                pbuf_memfind
+                0x00000000000191dc                pbuf_strstr
+ .text          0x0000000000019250        0x0 bin/altcp_tcp.o
+ .text          0x0000000000019250     0x167c bin/udp.o
+                0x0000000000019250                udp_init
+                0x0000000000019274                udp_input
+                0x000000000001980c                udp_bind
+                0x0000000000019b88                udp_sendto_if_src
+                0x0000000000019ea0                udp_sendto_if
+                0x000000000001a054                udp_sendto
+                0x000000000001a1ec                udp_send
+                0x000000000001a27c                udp_bind_netif
+                0x000000000001a2a8                udp_connect
+                0x000000000001a49c                udp_disconnect
+                0x000000000001a598                udp_recv
+                0x000000000001a5f4                udp_remove
+                0x000000000001a68c                udp_new
+                0x000000000001a6c8                udp_new_ip_type
+                0x000000000001a6ec                udp_netif_ip_addr_changed
+ .text          0x000000000001a8cc     0x2180 bin/tcp_out.o
+                0x000000000001af1c                tcp_write
+                0x000000000001b734                tcp_split_unsent_seg
+                0x000000000001b9a0                tcp_enqueue_flags
+                0x000000000001bb5c                tcp_send_fin
+                0x000000000001bc20                tcp_rexmit_rto_prepare
+                0x000000000001bd20                tcp_rexmit
+                0x000000000001be2c                tcp_rexmit_fast
+                0x000000000001bee0                tcp_rst
+                0x000000000001bfc4                tcp_send_empty_ack
+                0x000000000001c068                tcp_output
+                0x000000000001c794                tcp_rexmit_rto_commit
+                0x000000000001c7e8                tcp_rexmit_rto
+                0x000000000001c840                tcp_keepalive
+                0x000000000001c8c8                tcp_zero_window_probe
+ .text          0x000000000001ca4c      0xe94 bin/ip6_frag.o
+                0x000000000001cdf4                ip6_reass_tmr
+                0x000000000001ce3c                ip6_reass
+                0x000000000001d620                ip6_frag
+ .text          0x000000000001d8e0      0x74c bin/dhcp6.o
+                0x000000000001dc74                dhcp6_set_struct
+                0x000000000001dd0c                dhcp6_cleanup
+                0x000000000001dd64                dhcp6_enable_stateful
+                0x000000000001dd6c                dhcp6_enable_stateless
+                0x000000000001de98                dhcp6_disable
+                0x000000000001df40                dhcp6_nd6_ra_trigger
+                0x000000000001dfc8                dhcp6_tmr
+ .text          0x000000000001e02c        0x0 bin/inet6.o
+ .text          0x000000000001e02c      0x4b0 bin/ip6_addr.o
+                0x000000000001e02c                ip6addr_aton
+                0x000000000001e22c                ip6addr_ntoa_r
+                0x000000000001e4cc                ip6addr_ntoa
+ .text          0x000000000001e4dc     0x14f0 bin/ip6.o
+                0x000000000001e57c                ip6_route
+                0x000000000001e8fc                ip6_select_source_address
+                0x000000000001eb2c                ip6_input
+                0x000000000001f31c                ip6_output_if_src
+                0x000000000001f6ec                ip6_output_if
+                0x000000000001f7b4                ip6_output
+                0x000000000001f970                ip6_options_add_hbh_ra
+ .text          0x000000000001f9cc     0x2d8c bin/nd6.o
+                0x0000000000020648                nd6_input
+                0x0000000000021910                nd6_tmr
+                0x0000000000021d2c                nd6_clear_destination_cache
+                0x0000000000021d64                nd6_find_route
+                0x0000000000021e40                nd6_get_next_hop_addr_or_queue
+                0x000000000002247c                nd6_get_destination_mtu
+                0x00000000000224c0                nd6_reachability_hint
+                0x000000000002260c                nd6_cleanup_netif
+                0x00000000000226b0                nd6_adjust_mld_membership
+                0x000000000002274c                nd6_restart_netif
+ .text          0x0000000000022758      0x9ac bin/mld6.o
+                0x0000000000022984                mld6_stop
+                0x00000000000229e8                mld6_report_groups
+                0x0000000000022a18                mld6_lookfor_group
+                0x0000000000022a80                mld6_input
+                0x0000000000022c5c                mld6_joingroup_netif
+                0x0000000000022dd8                mld6_joingroup
+                0x0000000000022e74                mld6_leavegroup_netif
+                0x0000000000022fdc                mld6_leavegroup
+                0x0000000000023080                mld6_tmr
+ .text          0x0000000000023104       0xb4 bin/ethip6.o
+                0x0000000000023104                ethip6_output
+ .text          0x00000000000231b8      0x3fc bin/icmp6.o
+                0x0000000000023368                icmp6_input
+                0x00000000000234c4                icmp6_dest_unreach
+                0x00000000000234d0                icmp6_packet_too_big
+                0x00000000000234e0                icmp6_time_exceeded
+                0x00000000000234ec                icmp6_time_exceeded_with_addrs
+                0x000000000002359c                icmp6_param_problem
+ .text          0x00000000000235b4      0x4ec bin/slipif.o
+                0x0000000000023900                slipif_init
+                0x0000000000023a04                slipif_poll
+ .text          0x0000000000023aa0      0x234 bin/ethernet.o
+                0x0000000000023aa0                ethernet_input
+                0x0000000000023c10                ethernet_output
+ .text          0x0000000000023cd4      0x280 bin/bridgeif_fdb.o
+                0x0000000000023d70                bridgeif_fdb_update_src
+                0x0000000000023e44                bridgeif_fdb_get_dst_ports
+                0x0000000000023ec0                bridgeif_fdb_init
+ .text          0x0000000000023f54      0x50c bin/zepif.o
+                0x0000000000024264                zepif_init
+ .text          0x0000000000024460     0x1054 bin/lowpan6.o
+                0x00000000000244f8                lowpan6_input
+                0x0000000000024aac                lowpan6_calc_crc
+                0x00000000000250a0                lowpan6_output
+                0x0000000000025344                lowpan6_tmr
+                0x00000000000253a8                lowpan6_set_context
+                0x000000000002543c                lowpan6_set_short_addr
+                0x0000000000025454                lowpan6_if_init
+                0x0000000000025488                lowpan6_set_pan_id
+                0x000000000002549c                tcpip_6lowpan_input
+ .text          0x00000000000254b4      0x440 bin/lowpan6_ble.o
+                0x00000000000254b4                rfc7668_output
+                0x00000000000255fc                rfc7668_input
+                0x000000000002567c                ble_addr_to_eui64
+                0x00000000000256d0                eui64_to_ble_addr
+                0x00000000000256fc                rfc7668_set_local_addr_eui64
+                0x0000000000025744                rfc7668_set_local_addr_mac48
+                0x000000000002578c                rfc7668_set_peer_addr_eui64
+                0x00000000000257d0                rfc7668_set_peer_addr_mac48
+                0x0000000000025814                rfc7668_set_context
+                0x00000000000258a8                rfc7668_if_init
+                0x00000000000258dc                tcpip_rfc7668_input
+ .text          0x00000000000258f4     0x1768 bin/lowpan6_common.o
+                0x0000000000025958                lowpan6_get_address_mode
+                0x0000000000025a48                lowpan6_compress_headers
+                0x0000000000026444                lowpan6_decompress
+ .text          0x000000000002705c        0x0 bin/bridgeif.o
+ .text          0x000000000002705c      0x114 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+                0x000000000002705c                __udivsi3
+                0x000000000002705c                __aeabi_uidiv
+                0x0000000000027150                __aeabi_uidivmod
+ .text          0x0000000000027170      0x148 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+                0x0000000000027170                __aeabi_idiv
+                0x0000000000027170                __divsi3
+                0x0000000000027298                __aeabi_idivmod
+ .text          0x00000000000272b8        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+                0x00000000000272b8                __aeabi_ldiv0
+                0x00000000000272b8                __aeabi_idiv0
+ .text          0x00000000000272bc        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+ .text          0x00000000000272bc        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000000272bc        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000000272bc        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000000272bc        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000000272bc        0x0 linker stubs
+
+.fini           0x00000000000272bc       0x18
+ *(SORT(.fini))
+ .fini          0x00000000000272bc        0xc /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+                0x00000000000272bc                _fini
+ .fini          0x00000000000272c8        0xc /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x00000000000272d4     0x3556
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000272d4      0x324 bin/api_lib.o
+                                        0x33a (size before relaxing)
+ .rodata.str1.1
+                0x00000000000275f8       0x94 bin/tcpip.o
+                                         0xbc (size before relaxing)
+ .rodata.str1.1
+                0x000000000002768c      0x140 bin/netbuf.o
+                                        0x168 (size before relaxing)
+ .rodata        0x00000000000277cc       0x44 bin/err.o
+ .rodata        0x0000000000027810        0x3 bin/api_msg.o
+                0x0000000000027810                netconn_closed
+                0x0000000000027811                netconn_aborted
+                0x0000000000027812                netconn_reset
+ .rodata.str1.1
+                0x0000000000027813      0x474 bin/api_msg.o
+                                        0x4b6 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000027c87      0x341 bin/sockets.o
+                                        0x37f (size before relaxing)
+ .rodata.str1.1
+                0x0000000000027fc8      0x165 bin/mem.o
+                                        0x18d (size before relaxing)
+ .rodata.str1.1
+                0x000000000002812d       0x29 bin/inet_chksum.o
+                                         0x51 (size before relaxing)
+ *fill*         0x0000000000028156        0x2 
+ .rodata        0x0000000000028158      0x110 bin/memp.o
+                0x0000000000028158                memp_pools
+                0x000000000002819c                memp_PBUF_POOL
+                0x00000000000281a8                memp_PBUF
+                0x00000000000281b4                memp_MLD6_GROUP
+                0x00000000000281c0                memp_IP6_REASSDATA
+                0x00000000000281cc                memp_ND6_QUEUE
+                0x00000000000281d8                memp_SYS_TIMEOUT
+                0x00000000000281e4                memp_TCPIP_MSG_INPKT
+                0x00000000000281f0                memp_TCPIP_MSG_API
+                0x00000000000281fc                memp_NETCONN
+                0x0000000000028208                memp_NETBUF
+                0x0000000000028214                memp_FRAG_PBUF
+                0x0000000000028220                memp_REASSDATA
+                0x000000000002822c                memp_TCP_SEG
+                0x0000000000028238                memp_TCP_PCB_LISTEN
+                0x0000000000028244                memp_TCP_PCB
+                0x0000000000028250                memp_UDP_PCB
+                0x000000000002825c                memp_RAW_PCB
+ .rodata.str1.1
+                0x0000000000028268       0x62 bin/memp.o
+                                         0x8a (size before relaxing)
+ *fill*         0x00000000000282ca        0x2 
+ .rodata        0x00000000000282cc       0x50 bin/tcp.o
+                0x00000000000282cc                tcp_pcb_lists
+ .rodata.str1.1
+                0x000000000002831c      0x6e6 bin/tcp.o
+                                        0x728 (size before relaxing)
+ *fill*         0x0000000000028a02        0x2 
+ .rodata        0x0000000000028a04       0x3c bin/timeouts.o
+                0x0000000000028a04                lwip_cyclic_timers
+                0x0000000000028a3c                lwip_num_cyclic_timers
+ .rodata.str1.1
+                0x0000000000028a40       0x8f bin/timeouts.o
+                                         0xb7 (size before relaxing)
+ *fill*         0x0000000000028acf        0x1 
+ .rodata        0x0000000000028ad0       0x18 bin/ip.o
+                0x0000000000028ad0                ip_addr_any_type
+ .rodata.str1.1
+                0x0000000000028ae8       0xa8 bin/raw.o
+                                         0xd0 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000028b90      0x3ab bin/tcp_in.o
+                                        0x3d3 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000028f3b      0x2eb bin/netif.o
+                                        0x331 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000029226      0x36c bin/pbuf.o
+                                        0x39e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000029592      0x2b5 bin/udp.o
+                                        0x2dd (size before relaxing)
+ .rodata.str1.1
+                0x0000000000029847      0x6e3 bin/tcp_out.o
+                                        0x70b (size before relaxing)
+ .rodata.str1.1
+                0x0000000000029f2a      0x1ed bin/ip6_frag.o
+                                        0x21f (size before relaxing)
+ *fill*         0x000000000002a117        0x1 
+ .rodata        0x000000000002a118       0x30 bin/dhcp6.o
+                0x000000000002a118                dhcp6_All_DHCP6_Relay_Agents_and_Servers
+                0x000000000002a130                dhcp6_All_DHCP6_Servers
+ .rodata.str1.1
+                0x000000000002a148      0x187 bin/dhcp6.o
+                                        0x1cb (size before relaxing)
+ *fill*         0x000000000002a2cf        0x1 
+ .rodata        0x000000000002a2d0       0x10 bin/inet6.o
+                0x000000000002a2d0                in6addr_any
+ .rodata        0x000000000002a2e0       0x18 bin/ip6_addr.o
+                0x000000000002a2e0                ip6_addr_any
+ .rodata.str1.1
+                0x000000000002a2f8        0x8 bin/ip6_addr.o
+ .rodata.str1.1
+                0x000000000002a300       0x56 bin/ip6.o
+                                         0x7e (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a356       0x9d bin/nd6.o
+                                         0xcf (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a3f3       0x98 bin/icmp6.o
+                                         0xc0 (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a48b       0x5b bin/slipif.o
+                                         0x9b (size before relaxing)
+ .rodata        0x000000000002a4e6        0xc bin/ethernet.o
+                0x000000000002a4e6                ethbroadcast
+                0x000000000002a4ec                ethzero
+ .rodata.str1.1
+                0x000000000002a4f2       0x4e bin/ethernet.o
+                                         0x76 (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a540       0x4a bin/bridgeif_fdb.o
+                                         0x72 (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a58a       0x8f bin/zepif.o
+                                         0xde (size before relaxing)
+ .rodata        0x000000000002a619        0x9 bin/lowpan6.o
+ .rodata.str1.1
+                0x000000000002a622      0x125 bin/lowpan6.o
+                                        0x167 (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a747       0x20 bin/lowpan6_ble.o
+                                         0x8f (size before relaxing)
+ .rodata.str1.1
+                0x000000000002a767       0xc3 bin/lowpan6_common.o
+                                         0xf9 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x000000000002a82a        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x000000000002a82a        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x000000000002a82c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000002a82c        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+                [!provide]                        PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000002a834        0x4
+ *(.eh_frame)
+ .eh_frame      0x000000000002a834        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+ .eh_frame      0x000000000002a834        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000003a838                . = (ALIGN (0x10000) + (. & 0xffff))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000003a838        0x4
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000003a838        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+
+.fini_array     0x000000000003a83c        0x4
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000003a83c        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000003a840        0x4
+ *(.jcr)
+ .jcr           0x000000000003a840        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+ .jcr           0x000000000003a840        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000003a844       0xc8
+ *(.dynamic)
+ .dynamic       0x000000000003a844       0xc8 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+                0x000000000003a844                _DYNAMIC
+
+.got            0x000000000003a90c      0x428
+ *(.got.plt)
+ .got.plt       0x000000000003a90c      0x428 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+                0x000000000003a90c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x000000000003ad34        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ *(.got)
+ .got           0x000000000003ad34        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ *(.igot)
+
+.data           0x000000000003ad34       0x21
+                0x000000000003ad34                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000003ad34        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .data          0x000000000003ad34        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+                0x000000000003ad34                __dso_handle
+ .data          0x000000000003ad38        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .data          0x000000000003ad38        0x0 bin/netdb.o
+ .data          0x000000000003ad38        0x0 bin/api_lib.o
+ .data          0x000000000003ad38        0x0 bin/netifapi.o
+ .data          0x000000000003ad38        0x0 bin/tcpip.o
+ .data          0x000000000003ad38        0x0 bin/netbuf.o
+ .data          0x000000000003ad38        0x0 bin/if_api.o
+ .data          0x000000000003ad38        0x0 bin/err.o
+ .data          0x000000000003ad38        0x0 bin/api_msg.o
+ .data          0x000000000003ad38        0x0 bin/sockets.o
+ .data          0x000000000003ad38        0x0 bin/stats.o
+ .data          0x000000000003ad38        0x0 bin/mem.o
+ .data          0x000000000003ad38        0x0 bin/inet_chksum.o
+ .data          0x000000000003ad38        0x0 bin/init.o
+ .data          0x000000000003ad38        0x0 bin/memp.o
+ .data          0x000000000003ad38        0x8 bin/tcp.o
+ .data          0x000000000003ad40        0x0 bin/altcp_alloc.o
+ .data          0x000000000003ad40        0x0 bin/dns.o
+ .data          0x000000000003ad40        0x0 bin/timeouts.o
+ .data          0x000000000003ad40        0x0 bin/ip.o
+ .data          0x000000000003ad40        0x0 bin/raw.o
+ .data          0x000000000003ad40        0x0 bin/tcp_in.o
+ .data          0x000000000003ad40        0x0 bin/def.o
+ .data          0x000000000003ad40        0x0 bin/netif.o
+ .data          0x000000000003ad40        0x0 bin/sys.o
+ .data          0x000000000003ad40        0x0 bin/altcp.o
+ .data          0x000000000003ad40        0x0 bin/pbuf.o
+ .data          0x000000000003ad40        0x0 bin/altcp_tcp.o
+ .data          0x000000000003ad40        0x2 bin/udp.o
+ .data          0x000000000003ad42        0x0 bin/tcp_out.o
+ .data          0x000000000003ad42        0x0 bin/ip6_frag.o
+ .data          0x000000000003ad42        0x0 bin/dhcp6.o
+ .data          0x000000000003ad42        0x0 bin/inet6.o
+ .data          0x000000000003ad42        0x0 bin/ip6_addr.o
+ .data          0x000000000003ad42        0x0 bin/ip6.o
+ *fill*         0x000000000003ad42        0x2 
+ .data          0x000000000003ad44        0x8 bin/nd6.o
+                0x000000000003ad44                reachable_time
+                0x000000000003ad48                retrans_timer
+ .data          0x000000000003ad4c        0x0 bin/mld6.o
+ .data          0x000000000003ad4c        0x0 bin/ethip6.o
+ .data          0x000000000003ad4c        0x0 bin/icmp6.o
+ .data          0x000000000003ad4c        0x0 bin/slipif.o
+ .data          0x000000000003ad4c        0x0 bin/ethernet.o
+ .data          0x000000000003ad4c        0x0 bin/bridgeif_fdb.o
+ .data          0x000000000003ad4c        0x0 bin/zepif.o
+ .data          0x000000000003ad4c        0x9 bin/lowpan6.o
+ .data          0x000000000003ad55        0x0 bin/lowpan6_ble.o
+ .data          0x000000000003ad55        0x0 bin/lowpan6_common.o
+ .data          0x000000000003ad55        0x0 bin/bridgeif.o
+ .data          0x000000000003ad55        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .data          0x000000000003ad55        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .data          0x000000000003ad55        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+ .data          0x000000000003ad55        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+ .data          0x000000000003ad55        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+
+.tm_clone_table
+                0x000000000003ad58        0x0
+ .tm_clone_table
+                0x000000000003ad58        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+ .tm_clone_table
+                0x000000000003ad58        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+
+.data1
+ *(.data1)
+                0x000000000003ad58                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x000000000003ad58                . = .
+                0x000000000003ad58                __bss_start = .
+                0x000000000003ad58                __bss_start__ = .
+
+.bss            0x000000000003ad58     0x389c
+ *(.dynbss)
+ .dynbss        0x000000000003ad58        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000003ad58        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .bss           0x000000000003ad58       0x1c /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+ .bss           0x000000000003ad74        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .bss           0x000000000003ad74        0x0 bin/netdb.o
+ .bss           0x000000000003ad74        0x0 bin/api_lib.o
+ .bss           0x000000000003ad74        0x0 bin/netifapi.o
+ .bss           0x000000000003ad74        0xc bin/tcpip.o
+ .bss           0x000000000003ad80        0x0 bin/netbuf.o
+ .bss           0x000000000003ad80        0x0 bin/if_api.o
+ .bss           0x000000000003ad80        0x0 bin/err.o
+ .bss           0x000000000003ad80        0x0 bin/api_msg.o
+ .bss           0x000000000003ad80      0x584 bin/sockets.o
+ .bss           0x000000000003b304        0x0 bin/stats.o
+ .bss           0x000000000003b304       0x10 bin/mem.o
+ .bss           0x000000000003b314        0x0 bin/inet_chksum.o
+ .bss           0x000000000003b314        0x0 bin/init.o
+ .bss           0x000000000003b314       0x44 bin/memp.o
+ .bss           0x000000000003b358        0x2 bin/tcp.o
+ .bss           0x000000000003b35a        0x0 bin/altcp_alloc.o
+ .bss           0x000000000003b35a        0x0 bin/dns.o
+ *fill*         0x000000000003b35a        0x2 
+ .bss           0x000000000003b35c        0xc bin/timeouts.o
+ .bss           0x000000000003b368        0x0 bin/ip.o
+ .bss           0x000000000003b368        0x4 bin/raw.o
+ .bss           0x000000000003b36c       0x38 bin/tcp_in.o
+ .bss           0x000000000003b3a4        0x0 bin/def.o
+ .bss           0x000000000003b3a4        0x1 bin/netif.o
+ .bss           0x000000000003b3a5        0x0 bin/sys.o
+ .bss           0x000000000003b3a5        0x0 bin/altcp.o
+ .bss           0x000000000003b3a5        0x0 bin/pbuf.o
+ .bss           0x000000000003b3a5        0x0 bin/altcp_tcp.o
+ .bss           0x000000000003b3a5        0x0 bin/udp.o
+ .bss           0x000000000003b3a5        0x0 bin/tcp_out.o
+ *fill*         0x000000000003b3a5        0x3 
+ .bss           0x000000000003b3a8        0xc bin/ip6_frag.o
+ .bss           0x000000000003b3b4        0x5 bin/dhcp6.o
+ .bss           0x000000000003b3b9        0x0 bin/inet6.o
+ .bss           0x000000000003b3b9       0x28 bin/ip6_addr.o
+ .bss           0x000000000003b3e1        0x0 bin/ip6.o
+ *fill*         0x000000000003b3e1        0x3 
+ .bss           0x000000000003b3e4       0x38 bin/nd6.o
+ .bss           0x000000000003b41c        0x0 bin/mld6.o
+ .bss           0x000000000003b41c        0x0 bin/ethip6.o
+ .bss           0x000000000003b41c        0x0 bin/icmp6.o
+ .bss           0x000000000003b41c        0x0 bin/slipif.o
+ .bss           0x000000000003b41c        0x0 bin/ethernet.o
+ .bss           0x000000000003b41c        0x0 bin/bridgeif_fdb.o
+ .bss           0x000000000003b41c        0x1 bin/zepif.o
+ *fill*         0x000000000003b41d        0x3 
+ .bss           0x000000000003b420       0xd4 bin/lowpan6.o
+ .bss           0x000000000003b4f4       0xdc bin/lowpan6_ble.o
+ .bss           0x000000000003b5d0        0x0 bin/lowpan6_common.o
+ .bss           0x000000000003b5d0        0x0 bin/bridgeif.o
+ .bss           0x000000000003b5d0        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .bss           0x000000000003b5d0        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .bss           0x000000000003b5d0        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+ .bss           0x000000000003b5d0        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+ .bss           0x000000000003b5d0        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+ *(COMMON)
+ COMMON         0x000000000003b5d0        0x4 bin/tcpip.o
+                0x000000000003b5d0                lock_tcpip_core
+ COMMON         0x000000000003b5d4      0x64c bin/mem.o
+                0x000000000003b5d4                ram_heap
+ COMMON         0x000000000003bc20     0x2510 bin/memp.o
+                0x000000000003bc20                memp_memory_ND6_QUEUE_base
+                0x000000000003bcc0                memp_memory_NETBUF_base
+                0x000000000003bd08                memp_memory_TCPIP_MSG_INPKT_base
+                0x000000000003bd88                memp_memory_IP6_REASSDATA_base
+                0x000000000003bda8                memp_memory_RAW_PCB_base
+                0x000000000003bec8                memp_memory_TCP_SEG_base
+                0x000000000003bfc8                memp_memory_PBUF_POOL_base
+                0x000000000003d2c8                memp_memory_FRAG_PBUF_base
+                0x000000000003d430                memp_memory_TCPIP_MSG_API_base
+                0x000000000003d4b0                memp_memory_PBUF_base
+                0x000000000003d5b0                memp_memory_TCP_PCB_LISTEN_base
+                0x000000000003d6c0                memp_memory_REASSDATA_base
+                0x000000000003d6e0                memp_memory_UDP_PCB_base
+                0x000000000003d820                memp_memory_MLD6_GROUP_base
+                0x000000000003d8a0                memp_memory_NETCONN_base
+                0x000000000003dda0                memp_memory_TCP_PCB_base
+                0x000000000003e0b0                memp_memory_SYS_TIMEOUT_base
+ COMMON         0x000000000003e130       0x18 bin/tcp.o
+                0x000000000003e130                tcp_active_pcbs_changed
+                0x000000000003e134                tcp_active_pcbs
+                0x000000000003e138                tcp_ticks
+                0x000000000003e13c                tcp_listen_pcbs
+                0x000000000003e140                tcp_bound_pcbs
+                0x000000000003e144                tcp_tw_pcbs
+ COMMON         0x000000000003e148       0x44 bin/ip.o
+                0x000000000003e148                ip_data
+ COMMON         0x000000000003e18c        0x4 bin/tcp_in.o
+                0x000000000003e18c                tcp_input_pcb
+ COMMON         0x000000000003e190        0x8 bin/netif.o
+                0x000000000003e190                netif_list
+                0x000000000003e194                netif_default
+ COMMON         0x000000000003e198        0x1 bin/pbuf.o
+                0x000000000003e198                pbuf_free_ooseq_pending
+ *fill*         0x000000000003e199        0x3 
+ COMMON         0x000000000003e19c        0x4 bin/udp.o
+                0x000000000003e19c                udp_pcbs
+ COMMON         0x000000000003e1a0        0xc bin/dhcp6.o
+                0x000000000003e1a0                dhcp6_rx_options
+ COMMON         0x000000000003e1ac      0x448 bin/nd6.o
+                0x000000000003e1ac                neighbor_cache
+                0x000000000003e364                prefix_list
+                0x000000000003e3f0                destination_cache
+                0x000000000003e5d0                default_router_list
+                0x000000000003e5f4                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000003e5f4                _bss_end__ = .
+                0x000000000003e5f4                __bss_end__ = .
+                0x000000000003e5f4                . = ALIGN (0x4)
+                0x000000000003e5f4                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000003e5f4                . = ALIGN (0x4)
+                0x000000000003e5f4                __end__ = .
+                0x000000000003e5f4                _end = .
+                [!provide]                        PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x31
+ *(.comment)
+ .comment       0x0000000000000000       0x31 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000031       0x32 bin/netdb.o
+ .comment       0x0000000000000031       0x32 bin/api_lib.o
+ .comment       0x0000000000000031       0x32 bin/netifapi.o
+ .comment       0x0000000000000031       0x32 bin/tcpip.o
+ .comment       0x0000000000000031       0x32 bin/netbuf.o
+ .comment       0x0000000000000031       0x32 bin/if_api.o
+ .comment       0x0000000000000031       0x32 bin/err.o
+ .comment       0x0000000000000031       0x32 bin/api_msg.o
+ .comment       0x0000000000000031       0x32 bin/sockets.o
+ .comment       0x0000000000000031       0x32 bin/stats.o
+ .comment       0x0000000000000031       0x32 bin/mem.o
+ .comment       0x0000000000000031       0x32 bin/inet_chksum.o
+ .comment       0x0000000000000031       0x32 bin/init.o
+ .comment       0x0000000000000031       0x32 bin/memp.o
+ .comment       0x0000000000000031       0x32 bin/tcp.o
+ .comment       0x0000000000000031       0x32 bin/altcp_alloc.o
+ .comment       0x0000000000000031       0x32 bin/dns.o
+ .comment       0x0000000000000031       0x32 bin/timeouts.o
+ .comment       0x0000000000000031       0x32 bin/ip.o
+ .comment       0x0000000000000031       0x32 bin/raw.o
+ .comment       0x0000000000000031       0x32 bin/tcp_in.o
+ .comment       0x0000000000000031       0x32 bin/def.o
+ .comment       0x0000000000000031       0x32 bin/netif.o
+ .comment       0x0000000000000031       0x32 bin/sys.o
+ .comment       0x0000000000000031       0x32 bin/altcp.o
+ .comment       0x0000000000000031       0x32 bin/pbuf.o
+ .comment       0x0000000000000031       0x32 bin/altcp_tcp.o
+ .comment       0x0000000000000031       0x32 bin/udp.o
+ .comment       0x0000000000000031       0x32 bin/tcp_out.o
+ .comment       0x0000000000000031       0x32 bin/ip6_frag.o
+ .comment       0x0000000000000031       0x32 bin/dhcp6.o
+ .comment       0x0000000000000031       0x32 bin/inet6.o
+ .comment       0x0000000000000031       0x32 bin/ip6_addr.o
+ .comment       0x0000000000000031       0x32 bin/ip6.o
+ .comment       0x0000000000000031       0x32 bin/nd6.o
+ .comment       0x0000000000000031       0x32 bin/mld6.o
+ .comment       0x0000000000000031       0x32 bin/ethip6.o
+ .comment       0x0000000000000031       0x32 bin/icmp6.o
+ .comment       0x0000000000000031       0x32 bin/slipif.o
+ .comment       0x0000000000000031       0x32 bin/ethernet.o
+ .comment       0x0000000000000031       0x32 bin/bridgeif_fdb.o
+ .comment       0x0000000000000031       0x32 bin/zepif.o
+ .comment       0x0000000000000031       0x32 bin/lowpan6.o
+ .comment       0x0000000000000031       0x32 bin/lowpan6_ble.o
+ .comment       0x0000000000000031       0x32 bin/lowpan6_common.o
+ .comment       0x0000000000000031       0x32 bin/bridgeif.o
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .debug_aranges
+                0x0000000000000020       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x29c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x92 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .debug_info    0x0000000000000092       0xae /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .debug_info    0x0000000000000140       0xae /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .debug_info    0x00000000000001ee       0xae /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x0000000000000000       0x50
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .debug_abbrev  0x0000000000000014       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000000028       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x000000000000003c       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+
+.debug_line     0x0000000000000000      0x1e9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x92 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .debug_line    0x0000000000000092       0x78 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .debug_line    0x000000000000010a       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .debug_line    0x000000000000018e       0x5b /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x0000000000000000       0x40
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000020       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.stack          0x0000000000080000        0x0
+                0x0000000000080000                _stack = .
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x16 /usr/lib/gcc/arm-none-eabi/6.3.1/crti.o
+ .ARM.attributes
+                0x0000000000000016       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/crtbegin.o
+ .ARM.attributes
+                0x0000000000000046       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/crt0.o
+ .ARM.attributes
+                0x000000000000005a       0x30 bin/netdb.o
+ .ARM.attributes
+                0x000000000000008a       0x30 bin/api_lib.o
+ .ARM.attributes
+                0x00000000000000ba       0x30 bin/netifapi.o
+ .ARM.attributes
+                0x00000000000000ea       0x30 bin/tcpip.o
+ .ARM.attributes
+                0x000000000000011a       0x30 bin/netbuf.o
+ .ARM.attributes
+                0x000000000000014a       0x30 bin/if_api.o
+ .ARM.attributes
+                0x000000000000017a       0x30 bin/err.o
+ .ARM.attributes
+                0x00000000000001aa       0x30 bin/api_msg.o
+ .ARM.attributes
+                0x00000000000001da       0x30 bin/sockets.o
+ .ARM.attributes
+                0x000000000000020a       0x30 bin/stats.o
+ .ARM.attributes
+                0x000000000000023a       0x30 bin/mem.o
+ .ARM.attributes
+                0x000000000000026a       0x30 bin/inet_chksum.o
+ .ARM.attributes
+                0x000000000000029a       0x30 bin/init.o
+ .ARM.attributes
+                0x00000000000002ca       0x30 bin/memp.o
+ .ARM.attributes
+                0x00000000000002fa       0x30 bin/tcp.o
+ .ARM.attributes
+                0x000000000000032a       0x30 bin/altcp_alloc.o
+ .ARM.attributes
+                0x000000000000035a       0x30 bin/dns.o
+ .ARM.attributes
+                0x000000000000038a       0x30 bin/timeouts.o
+ .ARM.attributes
+                0x00000000000003ba       0x30 bin/ip.o
+ .ARM.attributes
+                0x00000000000003ea       0x30 bin/raw.o
+ .ARM.attributes
+                0x000000000000041a       0x30 bin/tcp_in.o
+ .ARM.attributes
+                0x000000000000044a       0x30 bin/def.o
+ .ARM.attributes
+                0x000000000000047a       0x30 bin/netif.o
+ .ARM.attributes
+                0x00000000000004aa       0x30 bin/sys.o
+ .ARM.attributes
+                0x00000000000004da       0x30 bin/altcp.o
+ .ARM.attributes
+                0x000000000000050a       0x30 bin/pbuf.o
+ .ARM.attributes
+                0x000000000000053a       0x30 bin/altcp_tcp.o
+ .ARM.attributes
+                0x000000000000056a       0x30 bin/udp.o
+ .ARM.attributes
+                0x000000000000059a       0x30 bin/tcp_out.o
+ .ARM.attributes
+                0x00000000000005ca       0x30 bin/ip6_frag.o
+ .ARM.attributes
+                0x00000000000005fa       0x30 bin/dhcp6.o
+ .ARM.attributes
+                0x000000000000062a       0x30 bin/inet6.o
+ .ARM.attributes
+                0x000000000000065a       0x30 bin/ip6_addr.o
+ .ARM.attributes
+                0x000000000000068a       0x30 bin/ip6.o
+ .ARM.attributes
+                0x00000000000006ba       0x30 bin/nd6.o
+ .ARM.attributes
+                0x00000000000006ea       0x30 bin/mld6.o
+ .ARM.attributes
+                0x000000000000071a       0x30 bin/ethip6.o
+ .ARM.attributes
+                0x000000000000074a       0x30 bin/icmp6.o
+ .ARM.attributes
+                0x000000000000077a       0x30 bin/slipif.o
+ .ARM.attributes
+                0x00000000000007aa       0x30 bin/ethernet.o
+ .ARM.attributes
+                0x00000000000007da       0x30 bin/bridgeif_fdb.o
+ .ARM.attributes
+                0x000000000000080a       0x30 bin/zepif.o
+ .ARM.attributes
+                0x000000000000083a       0x30 bin/lowpan6.o
+ .ARM.attributes
+                0x000000000000086a       0x30 bin/lowpan6_ble.o
+ .ARM.attributes
+                0x000000000000089a       0x30 bin/lowpan6_common.o
+ .ARM.attributes
+                0x00000000000008ca       0x30 bin/bridgeif.o
+ .ARM.attributes
+                0x00000000000008fa       0x18 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000912       0x18 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000092a       0x18 /usr/lib/gcc/arm-none-eabi/6.3.1/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000942       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/crtend.o
+ .ARM.attributes
+                0x0000000000000972       0x18 /usr/lib/gcc/arm-none-eabi/6.3.1/crtn.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(bin/liblwip.so elf32-littlearm)

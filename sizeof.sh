@@ -13,6 +13,7 @@ chk_dep()
     chk_cmd unzip       # for unzipping packages
     chk_cmd srec_cat    # for cc2538dk platform compilation by contiki-ng
     chk_cmd arm-none-eabi-gcc   # for cross-compilation for cc2538dk
+    chk_cmd cmake   # for lwip compilation
 }
 
 main()
