@@ -26,3 +26,19 @@ Sizeof(TCP+IP6+ICMP6+PacketBuffers):
 |   146	|    12	|  2650	 | 2808	 |  af8|build/cc2538dk/obj/uip-packetqueue.o |
 |**9436**	|**68**|**3029**|**12533**|**30f5**|**(TOTALS)**|
 
+### Contiki-NG: sizeof(RPL-Non-Storing-MOP-only)
+
+|  text	|  data	|   bss	 |  dec	 |  hex|filename |
+|-------|-------|--------|-------|-----|-------------------------------------|
+|  2091	|     0	|     0	 | 2091	 |  82b|build/cc2538dk/obj/rpl-dag.o |
+|   272	|     0	|    17	 |  289	 |  121|build/cc2538dk/obj/rpl-dag-root.o |
+|  1244	|     0	|     0	 | 1244	 |  4dc|build/cc2538dk/obj/rpl-ext-header.o |
+|  1838	|    48	|     0	 | 1886	 |  75e|build/cc2538dk/obj/rpl-icmp6.o |
+|   340	|    36	|     0	 |  376	 |  178|build/cc2538dk/obj/rpl-mrhof.o |
+|   196	|     0	|    10	 |  206	 |   ce|build/cc2538dk/obj/rpl-nbr-policy.o |
+|  1210	|    20	|   128	 | 1358	 |  54e|build/cc2538dk/obj/rpl-neighbor.o |
+|   697	|     0	|     1	 |  698	 |  2ba|build/cc2538dk/obj/rpl.o |
+|   306	|    36	|     0	 |  342	 |  156|build/cc2538dk/obj/rpl-of0.o |
+|  1458	|     0	|    64	 | 1522	 |  5f2|build/cc2538dk/obj/rpl-timers.o |
+|**9652**|**140**|**220**|**10012**|**271c**|**(TOTALS)**|
+
