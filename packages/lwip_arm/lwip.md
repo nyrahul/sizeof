@@ -1,6 +1,6 @@
-# LWIP sizeof network stack"
+# LWIP sizeof network stack
 
-## Configuration"
+## Configuration
 
 | Config | Value |
 |--------|-------|

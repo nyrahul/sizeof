@@ -20,9 +20,9 @@ md_prn_cfg()
 wr_lwip_hdr()
 {
     cat <<HDR
-# LWIP sizeof network stack"
+# LWIP sizeof network stack
 
-## Configuration"
+## Configuration
 
 | Config | Value |
 |--------|-------|
