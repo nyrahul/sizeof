@@ -1,4 +1,14 @@
-# Contiki-ng full obj trace
+# Contiki-ng full picture
+
+Contiki-ng TARGET=cc2538dk, default build/config
+
+## Contiki-ng sizeof(rpl-border-router.cc2538dk)
+
+|  text	|  data	|   bss	 |  dec	 |  hex|filename|
+|-------|-------|--------|-------|-----|-------------------------------------|
+| 49207	|   928	| 13257	 |63392	 | f7a0|border-router.cc2538dk|
+
+## Contiki-ng sizeof(*.o)
 
 |  text	|  data	|   bss	 |  dec	 |  hex|filename |
 |-------|-------|--------|-------|-----|-------------------------------------|
@@ -153,8 +163,3 @@
 |  1119	|    16	|   268	 | 1403	 |  57b|webserver.o|
 | 83715	|  1422	| 14677	 |99814	 |185e6|(TOTALS)|
 
-## Contiki-NG sizeof(rpl-border-router.cc2538dk)
-
-|  text	|  data	|   bss	 |  dec	 |  hex|filename|
-|-------|-------|--------|-------|-----|-------------------------------------|
-| 49207	|   928	| 13257	 |63392	 | f7a0|border-router.cc2538dk|
