@@ -42,3 +42,4 @@ Sizeof(TCP+IP6+ICMP6+PacketBuffers):
 |  1458	|     0	|    64	 | 1522	 |  5f2|build/cc2538dk/obj/rpl-timers.o |
 |**9652**|**140**|**220**|**10012**|**271c**|**(TOTALS)**|
 
+[Contiki-ng full report](contiki-ng-full.md)
