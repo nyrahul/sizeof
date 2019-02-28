@@ -76,3 +76,15 @@ Text size=125124, Data size=33, BSS size=14492
 Text size=38064, Data size=8, BSS size=1676
 
 [LWIP2.1.2 map file](lwip.map)
+
+## Interested in reproducing the data?
+
+Steps to reproduce:
+
+1. Clone/Download the repo
+2. run `./sizeof.sh`
+3. `lwip.md` is created in lwip-arm folder
+4. Contiki-NG related stats are printed in the output of ./sizeof.sh
+
+(TODO: auto-create contiki-ng.md just like lwip.md)
+
