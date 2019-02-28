@@ -1,8 +1,12 @@
 # Sizeof Network stacks
 
-This project determines the sizeof network stacks used in constrained environments. The data is collected by using the size utility and the map files generated during linking. To make sure that the comparison data is fair, the network stacks are compiled using the same ARM cross-compiler and using similar CFLAGS/LDFLAGS.
+This project determines the sizeof network stacks used in constrained environments. To make sure that the comparison data is fair, the network stacks are compiled using the same ARM cross-compiler and using similar CFLAGS/LDFLAGS.
 
 This work was done to cross-verify the data in [draft-ietf-lwig-tcp-constrained-node-networks-04](https://tools.ietf.org/html/draft-ietf-lwig-tcp-constrained-node-networks-04). For understanding how the constrained tcp-stacks differ from each other, do read the draft.
+
+There were two methods used to get the memory sizes for the desired modules:
+1. Enable and then disable the relevant module (for example LWIP_TCP, or UIP_CONF_TCP) and get the difference in flash/ram.
+2. Use size utility and the linker generated map files to evaluate the memory requirements of the relevant module (based on object files).
 
 ## Contiki-NG
 
