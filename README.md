@@ -2,6 +2,8 @@
 
 This project determines the sizeof network stacks used in constrained environments. The data is collected by using the size utility and the map files generated during linking. To make sure that the comparison data is fair, the network stacks are compiled using the same ARM cross-compiler and using similar CFLAGS/LDFLAGS.
 
+This work was done to cross-verify the data in [draft-ietf-lwig-tcp-constrained-node-networks-04](https://tools.ietf.org/html/draft-ietf-lwig-tcp-constrained-node-networks-04). For understanding how the constrained tcp-stacks differ from each other, do read the draft.
+
 ## Contiki-NG
 
 Platform used CC2538DK, cross-compiling on linux.
